@@ -117,7 +117,7 @@ export default function Signup() {
                 type="submit" 
                 className="btn "
                 
-                 disabled >Loading...</button>}
+                 disabled >Loading ...</button>}
                  <p className='signup-link'><Link to="/login">Already have an account?</Link></p>
                 {error && <p className= 'error'>{error}</p>}
             </motion.form>
